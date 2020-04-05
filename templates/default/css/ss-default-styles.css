@@ -1,0 +1,464 @@
+/*!
+ * @file ss-styles.css
+ *
+ * Styles for Section Slider
+ *
+ * @author KreeLabs
+ *
+ * Copyright (c) 2020 KreeLabs <hello@kreelabs.com, @kreelabs>.
+ */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    background-color: #F6F7FB;
+}
+
+p {
+    margin: 0 0 1em !important;
+}
+
+ol {
+    list-style: decimal !important;
+}
+
+ol, ul {
+    margin: 0 0 1em 3em !important;
+    padding: 0 !important;
+}
+
+.ss-body {
+    font-family: Lato, sans-serif !important;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+    margin: 0;
+}
+
+.ss-background-image {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.ss-nav {
+    font-style: italic;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    z-index: 25;
+    box-shadow: 0 0 3px 0 #555;
+}
+
+.ss-site-url {
+    margin-left: 20px;
+}
+
+.ss-site-url a {
+    color: #F6F7FB !important;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0 0 1px #777;
+}
+
+.ss-site-url a:hover {
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.ss-content-sidebar-wrap {
+    padding: 30px 30px 30px 0;
+}
+
+.ss-card {
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    left: -100%;
+    background-color: #fff;
+    color: #222;
+}
+
+.ss-animate {
+    overflow: hidden;
+}
+
+.ss-current {
+    display: block !important;
+}
+
+.ss-swipe-article {
+    padding: 20px;
+}
+
+.ss-swipe-main {
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.ss-section-count {
+    display: block;
+    text-align: center;
+    width: 90%;
+    text-transform: uppercase;
+    color: #F6F7FB;
+    text-shadow: 0 0 1px #777;
+}
+
+.ss-swipe-title {
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.ss-entry-title,
+.ss-entry-content {
+    font-family: Lato, Helvetica, Arial, serif;
+    line-height: 1.8em;
+    font-size: 1.1em;
+}
+
+.ss-entry-content {
+    margin-top: 30px;
+}
+
+.ss-card-header {
+    color: #6b6d6c;
+}
+
+.ss-section-count {
+    font-size: 1em;
+    padding: 10px;
+    margin-left: 0;
+}
+
+.ss-toc {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    color: #F6F7FB;
+    position: fixed;
+    margin: 50px 30px 15px 0;
+    z-index: 15;
+    transition: all 450ms ease 0s;
+    width: 240px;
+    text-shadow: 0 0 1px #777;
+    padding: 0;
+}
+
+.ss-deck-toc {
+    background: rgba(49, 49, 49, 0.92);
+}
+
+.ss-deck-toc ol {
+    padding: 10px 30px 30px;
+    height: 180px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #fafafa;
+    margin: 0 0 24px 20px !important;
+}
+
+.ss-deck-toc ol li {
+    list-style-type: decimal;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 21px;
+    margin-left: 15px;
+}
+
+.ss-toc a {
+    font-weight: normal;
+    margin-left: 3px;
+}
+
+.ss-toc a:hover,
+.ss-toc a:focus {
+    text-decoration: underline;
+}
+
+.ss-deck-toc a {
+    color: #fafafa;
+}
+
+.ss-deck-info {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px 45px 20px;
+    text-transform: uppercase;
+}
+
+.ss-deck-title {
+    font-family: Lato, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    color: #F6F7FB !important;
+    letter-spacing: 2px !important;
+    text-shadow: 0 0 1px #777;
+}
+
+.ss-post-meta {
+    font-size: 0.8em;
+}
+
+a.ss-author {
+    margin-left: 0;
+}
+
+.ss-entry-categories {
+    display: block;
+}
+
+.ss-entry-categories a {
+    margin-left: 0;
+    font-size: 0.8em;
+}
+
+.ss-entry-categories a:hover {
+    text-decoration: underline;
+}
+
+.ss-left {
+    float: left;
+}
+
+.ss-right {
+    float: right;
+}
+
+.ss-clear {
+    clear: both;
+}
+
+.ss-pagination a {
+    color: #F6F7FB;
+    text-shadow: 0 0 1px #777;
+}
+
+.ss-pagination a:hover {
+    color: #fff;
+}
+
+.ss-pagination {
+    font-size: 30px;
+}
+
+.ss-pagination-previous {
+    margin-left: 10px;
+}
+
+.ss-pagination-next {
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+
+a.ss-dec-toc-nav {
+    font-size: 16px;
+}
+
+a.ss-deck-toc-nav:hover {
+    text-decoration: underline !important;
+}
+
+.ss-single-format .ss-content {
+    width: 75%;
+    top: 0;
+    z-index: 10;
+    margin-left: 290px;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.ss-scroller {
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    background-color: #232323;
+    display: block !important;
+}
+
+.ss-content-sidebar-wrap {
+    overflow: hidden;
+}
+
+.ss-scroller-up:before {
+    color: #eee;
+    content: "▴";
+}
+
+.ss-scroller-down:before {
+    color: #eee;
+    content: "▾";
+}
+
+.ss-active-link a:hover,
+.ss-active-link a:focus {
+    text-decoration: underline;
+}
+
+.ss-social {
+    text-align: center;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.ss-social a {
+    color: #6b6d6c;
+    font-size: 18px;
+    margin: 0 5px;
+    z-index: 999;
+}
+
+.ss-social a:hover {
+    color: #222;
+}
+
+.ss-swipe-categories {
+    padding: 0 !important;
+}
+
+.ss-clear {
+    clear: both;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    .ss-toc {
+        display: none;
+    }
+
+    .ss-single-format .ss-content {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .ss-content-sidebar-wrap {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .ss-section-count {
+        width: 70%;
+    }
+
+    .ss-toc {
+        display: none;
+    }
+
+    .ss-single-format .ss-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ss-content-sidebar-wrap {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .ss-toc {
+        display: none;
+    }
+
+    .ss-section-count {
+        width: 82%;
+    }
+
+    .ss-single-format .ss-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ss-content-sidebar-wrap {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .ss-single-format .ss-content {
+        width: 60%;
+    }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .ss-single-format .ss-content {
+        width: 65%;
+        margin-left: 275px;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .ss-single-format .ss-content {
+        width: 70%;
+    }
+}
+
+/* ----------- iPad  ----------- */
+
+/* Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1200px)
+and (orientation: landscape) {
+    .ss-single-format .ss-content {
+        width: 65%;
+        margin-left: 280px;
+    }
+}
+
+@media only screen
+and (min-device-width: 1100px)
+and (max-device-width: 1200px)
+and (orientation: landscape) {
+    .ss-single-format .ss-content {
+        width: 65%;
+    }
+}
+
+/* -------- DFI Plugin  -------- */
+.dfiSliderSync img {
+    height: 100% !important;;
+}
+
+.dfiFeatured .slick-slide img {
+    max-height: 150px;
+}

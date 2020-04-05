@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: section-slider\n"
+"POT-Creation-Date: 2019-07-19 16:43+0545\n"
+"PO-Revision-Date: 2019-04-15 14:48+0700\n"
+"Last-Translator: KreeLabs <hello@kreelabs.com>\n"
+"Language-Team: KreeLabs <hello@kreelabs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: template\n"
+
+msgid "Section Slider"
+msgstr ""
+
+msgid "Section"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "Deck"
+msgstr ""
+
+msgid "Go to previous page"
+msgstr ""
+
+msgid "Go to next page"
+msgstr ""
+
+msgid "Go to homepage"
+msgstr ""
+
+msgid "Share on facebook"
+msgstr ""
+
+msgid "Share on twitter"
+msgstr ""
+
+msgid "Share on google+"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Google+"
+msgstr ""
+
+msgid "Posted by"
+msgstr ""
